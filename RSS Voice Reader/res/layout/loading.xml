@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <TextView
+ 	 xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="Loading..." 
+     android:textSize="50sp"
+     android:textColor="#000000"
+     android:gravity="center"
+     android:shadowColor="#333"
+     android:background="#CCC"
+     />
+     <!--    -->
+     

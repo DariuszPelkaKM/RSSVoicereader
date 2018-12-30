@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="C:/Users/Yogi/Desktop/Loquendo Embedded TTS/Loquendo_Embedded_TTS_7-Android_SDK_Distribution_7.8.4/SDK/libs/Loqjapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yogi/Desktop/Loquendo Embedded TTS/Loquendo_Embedded_TTS_7-Android_SDK_Distribution_7.8.4/SDK/libs/LTTS_wrapper-opt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Yogi/Desktop/slock2_2_110204.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

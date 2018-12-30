@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RSSVoiceReaderActivity!</string>
+    <string name="app_name">RSS Voice Reader</string>
+    <string name="channels">RSS channels</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="favorite">Favorites</string>
+    <string name="channel_name">Channel name</string>
+    <string name="enter_channel_name">Enter a name for the channel</string>
+    <string name="feed_url">Feed URL</string>
+    <string name="add_channel_title">New Channel</string>
+    <string name="ready">Ready</string>
+    <string name="cancel">Cancel</string>
+    <string name="channels_title">RSS Channels</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="back">Back</string>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#aaaaaa</color>
+    <string name="options_send">Send article (email)</string>
+    <string name="options_copy">Copy URL</string>
+    <string name="options_favorite">Add to favorites</string><string name="language">Language</string><string name="volume">Volume</string><string name="speed">Speed</string><string name="voices_prompt">Choose a voice</string><string name="downloading_resources">Downloading resources..</string><string name="will_download">Folder with voice files not detected. The application will download about 75MB</string><string name="file_not_downloaded">Voices were not downloaded</string><string name="not_enough_space">There is not enough space to save the file</string><string name="download_error">An error occured during download. File was not saved. Please restart the application.</string>
+    <string name="decompressing_files">Decompressing files</string>
+    <string name="restore">Restore</string>
+    <string name="settings_RSS">RSS Settings</string>
+    <string name="settings_TTS">TTS Settings</string>
+    <string name="sounds">Sounds</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="about_link">http://rss-voice-reader.com/faq_eng.htm</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="wait">Wait</string>
+    <string name="refresh">Refresh</string>
+    <string name="by_hand">by hand</string>
+    <string name="every_1">every minute</string>
+    <string name="every_5">every 5 minutes</string>
+    <string name="every_10">every 10 minutes</string>
+    <string name="every_15">every 15 minutes</string>
+    <string name="every_30">every 30 minutes</string>
+    <string name="every_60">every hour</string>
+    <string name="ref">Refresh</string><string name="options">Options</string><string name="error_channel_title">Error in channel</string><string name="error_channel_body">Could not download RSS channel</string><string name="fill_fields">Fill all fields</string><string name="license">Could not obtain or invalid license. Application will be closed.</string>
+    <string name="decompressing">Decompressing:</string>
+</resources>

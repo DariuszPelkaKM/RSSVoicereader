@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <ViewFlipper android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/feed_switcher" android:background="@drawable/bg_full">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+            <RelativeLayout android:layout_height="wrap_content" android:background="@drawable/top_bar_bg" android:layout_width="fill_parent" android:id="@+id/relativeLayout1">
+                <TextView android:textColor="@color/white" android:layout_alignTop="@+id/channels_add" android:layout_alignBottom="@+id/channels_add" android:layout_width="fill_parent" android:gravity="center" android:textStyle="bold" android:text="@string/favorite" android:layout_height="wrap_content" android:textSize="25dip" android:id="@+id/textView1"></TextView>
+                <Button android:layout_alignParentRight="true" android:textColor="@color/black" android:id="@+id/channels_add" android:clickable="false" android:layout_width="wrap_content" android:text=" + " android:layout_height="wrap_content" android:textSize="25dip" android:visibility="invisible" android:textStyle="bold"></Button>
+            </RelativeLayout>
+            <ListView android:id="@+id/favoritesList" android:layout_height="wrap_content" android:layout_width="fill_parent"></ListView>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout3" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+            <RelativeLayout android:layout_height="wrap_content" android:background="@drawable/top_bar_bg" android:layout_width="fill_parent" android:id="@+id/relativeLayout3">
+                <Button android:layout_alignParentLeft="true" android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/back"></Button>
+            </RelativeLayout>
+            <RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:id="@+id/relativeLayout4">
+                <Button android:layout_alignParentLeft="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/button_back" android:id="@+id/button_prev_fav" android:layout_marginLeft="3dip" android:layout_marginTop="5dip"></Button>
+                <LinearLayout android:id="@+id/linearLayout5" android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/button_next_fav" android:layout_toRightOf="@+id/button_prev_fav" android:layout_marginBottom="5dip" android:layout_marginTop="5dip">
+                    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button_stop_fav" android:background="@drawable/stop"></Button>
+                    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button_play_fav" android:background="@drawable/play_bg" android:gravity="left|center_vertical" android:text="@string/play" android:textColor="@color/white" android:textSize="16dip" android:textStyle="bold" android:layout_marginLeft="5dip" android:layout_marginRight="5dip" android:paddingLeft="4dip"></Button>
+                    <SeekBar android:layout_height="wrap_content" android:layout_width="100px" android:id="@+id/seekbar_fav"></SeekBar>
+                </LinearLayout>
+                <Button android:layout_alignParentRight="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/button_next" android:id="@+id/button_next_fav" android:layout_marginRight="3dip" android:layout_marginTop="5dip"></Button>
+            </RelativeLayout>
+            <android.webkit.WebView android:id="@+id/rss_page" android:layout_height="fill_parent" android:layout_width="fill_parent"></android.webkit.WebView>
+        </LinearLayout>
+
+    </ViewFlipper>
+</LinearLayout>

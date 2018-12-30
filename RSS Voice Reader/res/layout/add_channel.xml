@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="300dip" android:background="@drawable/bg_full" android:layout_height="300dip">
+    <TextView android:gravity="center" android:id="@+id/textView1" android:text="@string/add_channel_title" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textColor="@color/white" android:textStyle="bold" android:textSize="25dip" android:background="@drawable/top_bar_bg"></TextView>
+    <TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/channel_name" android:textSize="18dip" android:layout_marginTop="10dip" android:textColor="@color/black" android:layout_marginLeft="10dip"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:hint="@string/enter_channel_name" android:id="@+id/add_channel_edit_name" android:layout_marginLeft="10dip" android:layout_marginRight="10dip"></EditText>
+    <TextView android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/feed_url" android:textSize="18dip" android:textColor="@color/black" android:layout_marginLeft="10dip"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="http://" android:id="@+id/add_channel_edit_link" android:layout_marginLeft="10dip" android:layout_marginRight="10dip"></EditText>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:gravity="center_horizontal" android:layout_marginTop="5dip">
+        <Button android:layout_width="wrap_content" android:text="@string/cancel" android:layout_height="wrap_content" android:id="@+id/add_channel_button_cancel"></Button>
+        <Button android:layout_width="wrap_content" android:text="@string/ready" android:layout_height="wrap_content" android:id="@+id/add_channel_button_ok"></Button>
+    </LinearLayout>
+</LinearLayout>

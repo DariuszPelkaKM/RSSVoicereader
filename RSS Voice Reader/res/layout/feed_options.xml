@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <Button android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/options_copy" android:id="@+id/options_copy" android:layout_marginTop="10px"></Button>
+    <Button android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/options_favorite" android:id="@+id/options_add"></Button>
+    <Button android:layout_marginLeft="20px" android:layout_marginRight="20px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/cancel" android:id="@+id/options_cancel"></Button>
+</LinearLayout>

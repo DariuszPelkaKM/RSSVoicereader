@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <ViewFlipper android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/bg_full" android:id="@+id/about_switcher">
+        <LinearLayout android:background="@drawable/about_en" android:layout_height="fill_parent" android:id="@+id/about_main" android:layout_width="fill_parent">
+            <TextView android:layout_marginTop="310dip" android:id="@+id/about_link" android:layout_marginLeft="20dip" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_link" android:textSize="17dip"></TextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:id="@+id/linearLayout3" android:layout_width="fill_parent">
+            <RelativeLayout android:layout_height="wrap_content" android:background="@drawable/top_bar_bg" android:id="@+id/relativeLayout3" android:layout_width="fill_parent">
+                <Button android:id="@+id/back" android:layout_alignParentLeft="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/back"></Button>
+            </RelativeLayout>
+            <LinearLayout android:layout_marginBottom="5dip" android:layout_height="wrap_content" android:layout_marginTop="5dip" android:gravity="center" android:id="@+id/linearLayout5" android:layout_width="fill_parent">
+                <Button android:background="@drawable/stop" android:id="@+id/button_stop_about" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+                <Button android:background="@drawable/play_bg" android:id="@+id/button_play_about" android:layout_marginLeft="5dip" android:gravity="left|center_vertical" android:layout_width="wrap_content" android:textStyle="bold" android:layout_height="wrap_content" android:textSize="16dip" android:paddingLeft="4dip" android:layout_marginRight="5dip" android:textColor="@color/white" android:text="@string/play"></Button>
+                <SeekBar android:layout_height="wrap_content" android:id="@+id/seekbar_about" android:layout_width="100px"></SeekBar>
+            </LinearLayout>
+            <android.webkit.WebView android:layout_height="fill_parent" android:id="@+id/rss_page" android:layout_width="fill_parent"></android.webkit.WebView>
+        </LinearLayout>
+	</ViewFlipper>
+</LinearLayout>

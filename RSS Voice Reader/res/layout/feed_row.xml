@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:background="@drawable/list_row_bg" android:layout_height="wrap_content">
+    <TextView android:lines="2" android:paddingLeft="10px" android:paddingRight="10px" android:textColor="@color/black" android:id="@+id/feed_row_name" android:layout_height="wrap_content" android:text="TextView" android:textSize="18dip" android:paddingTop="5px" android:paddingBottom="5px" android:layout_width="wrap_content" android:layout_toLeftOf="@+id/textView1" android:layout_alignParentLeft="true"></TextView>
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignTop="@+id/feed_row_name" android:layout_alignBottom="@+id/feed_row_name" android:gravity="center" android:text="&gt;" android:textStyle="bold" android:textColor="@color/gray" android:textSize="22dip" android:paddingRight="8px"></TextView>
+</RelativeLayout>

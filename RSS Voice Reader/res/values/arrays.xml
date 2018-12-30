@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2007 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+
+<resources>
+    <string-array name="languages">
+        <item>Chinese (Mandarin) [zh]</item>
+        <item>Dutch [nl]</item>
+        <item>English (American) [en-US]</item>
+        <item>English (British) [en-GB]</item>
+        <item>Finnish [fi]</item>
+        <item>French [fr]</item>
+        <item>German [de]</item>
+        <item>Greek [el]</item>
+        <item>Italian [it]</item>
+        <item>Polish [pl]</item>
+        <item>Portuguese [pt]</item>
+        <item>Russian [ru]</item>
+        <item>Spanish [es]</item>
+        <item>Spanish (Latin America) [es-CO]</item>
+        <item>Swedish [sv]</item>
+        <item>Turkish [tr]</item>
+    </string-array>
+
+    <string-array name="voices">
+	    <item>Afroditi [el]</item>
+        <item>Allison [en-US]</item>
+        <item>Amalia [pt]</item>
+        <item>Annika [sv]</item>
+        <item>Bernard [fr]</item>
+        <item>Charlotte [fr-CA]</item>
+        <item>Carlos [es-CO]</item>
+        <item>Carmela [gl-ES]</item>
+        <item>Carmen [es-ES]</item>
+        <item>Dave [en-US]</item>
+        <item>Dmitri [ru]</item>
+        <item>Elizabeth [en-GB]</item>
+        <item>Esperanza [es]</item>
+        <item>Eusebio [pt]</item>
+        <item>Gabriela [pt-BR]</item>
+        <item>Giulia [it]</item>
+        <item>Jorge [es-ES]</item>
+        <item>Juliette [fr]</item>
+        <item>Kate [en-GB]</item>
+        <item>Katrin [de]</item>
+        <item>Kerem [tr]</item>
+        <item>Krzysztof [pl]</item>
+        <item>Leonor [es-ES]</item>
+	    <item>Linlin [zh]</item>
+	    <item>Lisheng [zh]</item>
+        <item>Luca [it]</item>
+        <item>Matteo [it]</item>
+        <item>Mikko [fi]</item>
+        <item>Milla [fi]</item>
+        <item>Montserrat [ca]</item>
+	    <item>Nikos [el]</item>
+        <item>Olga [ru]</item>
+        <item>Olivier [fr-CA]</item>
+        <item>Paola [it]</item>
+        <item>Saskia [nl]</item>
+        <item>Simon [en-GB]</item>
+        <item>Soledad [es-CO]</item>
+        <item>Stefan [de]</item>
+        <item>Steven [en-US]</item>
+        <item>Susan [en-US]</item>
+        <item>Sven [sv]</item>        
+        <item>Willem [nl]</item>        
+        <item>Zeynep [tr]</item>
+        <item>Zosia [pl]</item>
+    </string-array>
+
+<string-array name="demotext">
+	    <item>\\item=Throat_01 . Γεια σε όλους! Είμαι η Αφροδίτη, η Ελληνική φωνή της Loquendo. Έχω καλά νέα για σας. Μπορώ να σας πω ότι μου ζητήσετε, και όχι μόνο. \\item=Cough . Τώρα έχω γίνει πιο εκφραστική. Ακούστε! μπορώ να γελάω, \\item=Laugh_04 . να σφυρίζω, \\item=Whistle_03 . \\item=Wow_01 Φανταστικό! Τα λέω σωστά;! Θα τα ξαναπούμε! Φιλάκια! \\item=Kiss_02 .</item>
+        <item>Hello?! Anybody there?! I\'m Allison. \\item=Cough_01 Do you have a minute?! my voice sounds pretty good, right?! guess what?! You can make it even better. You can put in various effects, \\item=Ouch and, adding punctuation, certain phrases become more expressive, . cool. or, if you prefer, cool! Well then?! what are you waiting for?</item>
+        <item>\\item=Throat_01 Bom dia a todos! Sou a voz femenina portuguesa do sistema de síntese de Loquendo. Chamo-me Amália. Como a rainha do Fado, como a mascote da Expo. \\item=Laugh Eu sei o que vocês querem!!! Querem ouvir-me falar de um jeito muito natural, como se eu fosse uma verdadeira pessoa. \\item=Cry Que pena! Devo infelizmente deixar-vos. Adeus a todos! Um grande beijo! \\item=Smack</item>
+        <item>Hej och välkomna! Det här är Annika som talar. Och jag kan säga precis vad du vill. Nu ska vi se! Vad ska jag säga? Skriv in en text så ska jag läsa upp den för dig! Du kan också lägga till olika effekter. Jag kan skratta \\item=Laugh och gråta \\item=Cry_01 , hicka \\item=Hiccup_01 och till och med sjunga \\item=Singing_01 . \\item=Sneeze Jag ber om ursäkt! Jag har visst blivit snuvig. Ta hand om er! Vi ses! \\item=Whistle_03</item>
+        <item>Bonjour, je m\'appelle Bernard, et je suis une des voix synthétiques préparées par Loquendo, pour le français. Écrivez un texte, et je peux vous le lire.</item>
+        <item>Bonjour, mon nom est Charlotte, et je suis la nouvelle voix synthétique préparée par Loquendo, pour le français québécois. Écrivez un texte, et je peux vous le lire.</item>
+        <item>Damas y caballeros buenos días! si me permiten quiero presentarme! Soy Carlos, la nueva voz sintética de Loquendo TTS, en español de América. \\item=Laugh_04 Ya sé lo que Ustedes quieren. Quieren escucharme con mis sentimientos. Quieren que me ría, \\item=Laugh cuando estoy feliz. Que llore, \\item=Cry_03 si estoy triste. Que estarnude, \\item=Hiccup_01 cuando estoy resfriado, y que haga o diga muchas cosas más.</item>
+        <item>¡Ola! Son Carmela, a voz sintética en galego de Loquendo. \\item=Throat_02 ¡A ver se dou feito! Queríache cantar unha  canción. Agora acórdaseme unha que di...  \\item=Singing ¿Coñécela? ¡Incrible! ¿Non che parece? Pero podo facer  aínda máis cousas, porque son moi expresiva. Se me poño triste, dáme por chorar \\item=Cry_02 . Se me poño contenta, dáme por rir \\item=Laugh_03 . E se penso en ti \\item=Sigh_02 .</item>
+		<item>Buenos días a todos! Soy Carmen, la voz sintética femenina de Loquendo. \\item=Throat Tengo que contar que ultimamente me he vuelto más expresiva y sentimental. Me río si soy feliz, \\item=Laugh_03 silbo si me parece el caso, \\item=Whistle_01 y muchas otras cosas más. Adiós! un besote! \\item=Smack_02</item>
+        <item>Hello?! Anybody there?! I\'m Dave. \\item=Cough_01 listen up! my voice sounds pretty fantastic, right?! Well! You can make it sound even better. That\'s impossible, or rather, that\'s impossible! Well then?! Tell me what you want me to say?</item>
+        <item>\\item=Throath Добрый день! позвольте представиться! дмитрий - русский голос компании Loquendo. я умею читать по-русски. напишите что-нибудь, а я прочитаю. \\item=Hiccup извините, простудился немного. жду вас, чтобы почитать вместе. удачного вам дня! До свидания! кстати, я ещё пою, вот так \\item=Singing , всем пока!</item>
+        <item>Hi! Let me introduce myself! My name is Elizabeth, and I can say anything you want me to say. With a little punctuation, I can even say certain phrases with more expression: That\'s brilliant; or, That\'s brilliant! Amazing; or, Amazing! You can also put in various effects: \\item=Ahhh What was that?! \\item=Oh-oh Who\'s there?! \\item=Snore Weird! Very strange! Right. I\'m off. Bye! Take care! Good luck!</item>
+        <item>Buenos días. Soy Esperanza, la nueva voz mexicana de Loquendo, llevada a cabo con una nueva técnica de síntesis del habla. Para escuchar un ejemplo, escribe el texto que quieras, y yo te lo leo.</item>
+        <item>\\item=Throat_01 Bom dia a todos! Sou a nova voz sintéctica masculina da Loquendo. Sou português e chamo-me Eusébio! Como a pantera negra do Benfica, como a mascote da Expo. \\item=Laugh Eu sei o que voces querem!!! Querem ouvir-me falar de um jeito muito natural, como se eu fosse uma verdadeira pessoa. \\item=Ups \\item=Pff Que pena! Devo infelizmente deixar-vos. Horrível! Adeus a todos! Um grande beijo! \\item=Smack </item>
+        <item>Chama-me Gabriela. Sou a  voz brasileira do sistema de síntese de Loquendo. Escreva uma mensagem. Eu lerei a frase.</item>
+        <item>Eccomi! \\item=Throat Sono Giulia. Sono pronta a leggere quello che scriverai. Prego! E\' difficile? \\item=Mmm Assolutamente no!! Prova a scrivere qualche cosa. Suvvia!</item>
+        <item>Buenos días a todos! Soy Jorge, la voz sintética masculina de Loquendo. \\item=Throat Han cambiado algunas cosas en mi vida ultimamente. \\item=Laugh Me he vuelto más expresivo y sentimental. Ya me vais a escuchar, pero, hombre!! ahora os tengo que dejar. \\item=Cry besos! \\item=Smack_02 Hasta luego!</item>
+        <item>\\item=Ehe Bonjour tout le monde! Me voilà! \\item=Throat Je m\'appelle Juliette, \\item=Click et je suis une des voix françaises de Loquendo. \\item=Breath Formidable! A partir d\'aujourd\'hui, \\item=Click il est possible d\'utiliser des formules expressives, qui rendent ma voix plus agréable. Justement! Par exemple, \\item=Euhh je peux dire: quelle surprise, ou bien: quelle surprise!</item>
+        <item>Hi! Let me introduce myself! I\'m Kate, and I can say anything you want me to say. With a little punctuation, I can even say certain phrases with more expression: That\'s brilliant; or, That\'s brilliant! Amazing; or, Amazing! You can also put in various effects: \\item=Aargh What was that?! \\item=Whistle_01 Who\'s there?! \\item=Snore_01 Weird! Very strange! Right. I\'m off. Bye! Take care! Good luck!</item>
+        <item>Hi! \\item=Throat Mein Name ist Katrin und, \\item=Cough \\item=Ups_01 Entschuldigung! Ich bin die neue deutsche Stimme von LoquendoTTS. Wenn Sie einen Satz schreiben, lese ich ihn vor! \\item=Ehm_01 Na ja! Versuchen Sie es selbst. Also, viel Glück!</item>
+        <item>Merhaba, benim adım Kerem. Ben Loquendo\'nun erkek sesiyim. Bir cümle yazın, bende size geri okuyayım. Hadi, dilediğinizi yazın. İsterseniz sizin için gülebilir \\item=Laugh_01 yada sizinle ağlayabilirim. \\item=Cry_01 Kış gelince hastalanıp, hapşırabilirim. \\item=Sneeze \\item=Sneeze Dileyin benden ne dilerseniz. Hadi başlayalım. Ne duruyorsunuz!</item>
+        <item>Dzień dobry! Nie przeszkadzam? \\item=Poprawianie-glosu . Słyszycie mnie? Tak? Świetnie! Chciałbym się przedstawić! Jestem Krzysztof, jestem kolegą Zosi, towarzyszę jej w przygodzie z TTS Loquendo. Mam powtórzyć? \\item=Smiech super! Wybaczcie mi, ale jestem rozemocjonowany \\item=Placz_01 , to ze wzruszenia. \\item=Ohoho_02 Tu jest naprawdę fajnie! Ale czasem nudno \\item=Ziewanie . Miłego słuchania!</item>
+        <item>Buenos días! Todo bien?! Soy Leonor, la nueva voz femenina en castellano de Loquendo. Hoy por fin me han dado la noticia que esperaba desde hace dìas. Mi voz está preparada para ser escuchada. Fantástico! Me han dejado salir del laboratorio y ahora puedo cantar con vosotros. \\item=Singing llorar, \\item=Cry , o reir \\item=Laugh . Increíble!! Hasta pronto! Y un beso, \\item=Kiss-Smack .</item>
+	    <item>你好。我叫丽声。每当你独处时，你一定会感到孤单。别担心，我会全天陪伴着你。我可以即刻就读你写的任何句子，现在就作尝试吧。</item>
+	    <item>你好。我叫丽声。每当你独处时，你一定会感到孤单。别担心，我会全天陪伴着你。我可以即刻就读你写的任何句子，现在就作尝试吧。</item>
+        <item>Eccomi! \\item=Throat Sono Luca. Sono pronto a leggere quello che scriverai. Prego! E\' difficile? \\item=Mmm Assolutamente no! Prova a scrivere qualche cosa. Suvvia!</item>
+        <item>Ciao. Mi chiamo Matteo, e la mia voce è ottenuta per concatenazione di unità acustiche, mediante il sistema di sintesi di Loquendo. Scrivi una frase, e io la leggerò ad alta voce.</item>
+        <item>Moi! Nimeni on Mikko. Olen Loquendon uusi suomenkielinen miesääni. Vihdoin pystyn puhumaan ihan kuten oikea ihminen. En kuitenkaan osaa vain puhua, sen lisäksi osaan naureskella \\item=Laugh_06  sekä myös laulaa \\item=Singing_01 , ja annan suukkoja \\item=Kiss_05 . Tulkaa pian Loquendon kotisivulle tutustumaan minuun, ja kaikkeen mitä pystyn tekemään. Todella yllätytte.</item>
+        <item>Tervetuloa! Olen Milla, Loquendon uusi suomalainen ääni. Kuulitko uutisen?! Aivan uskomatonta! Osaan puhua \pause ja sanoa mitä haluat minun sanovani. Luen kaikki tekstit. Kuuntele tämä! Kun olen hyvällä tuulella laulan, \\item=Singing_02 . Iloitsen kaikista onnistumisista, sekä kivoista asioista, \\item=Jippii_02 \\item=Laugh_12 . Mutta kun huono päivä koittaa \pause ja olen surullinen \pause itken myös: \\item=Cry_02 . Kun taas olen erittäin uupunut, huokaisen väsymyksestä kovasti, \\item=Yawn . Loistavaa! Toivottavasti viihdymme yhdessä. Pikaisiin kuulumisiin!\\item=Smack</item>
+        <item>Benvolguts amics! Bon dia a tothom! Soc la Montserrat, la veu sintètica femenina en català de Loquendo. \\item=Throat Han canviat algunes coses en la meva vida darrerament. \\item=Laugh_05 M\'he tornat més expressiva i sentimental. Genial! Ja m\'escoltareu, però, \\item=Cough_01 ara us he de deixar. Petons! \\item=Smack Fins aviat!</item>
+		<item>\\item=Throat_01 . Κυρίες και κύριοι, θα ήθελα να σας συστηθώ, Είμαι ο Νίκος, η Ελληνική φωνή της Loquendo. Έχω καλά νέα. Μπορώ να σας πω ότι μου ζητήσετε, και όχι μόνο. Τώρα έχω γίνει πιο εκφραστικός. Ακούστε! Μπορώ να πω: ευχαριστώ. Και μπορώ να πω : ευχαριστώ! \\item=Laugh_01 . Θα τα ξαναπούμε! Φιλιά! \\item=Kiss_02 . </item>
+        <item>\\item=Singing_02 ой, прошу прощения! \\item=Throat Добрый день! меня зовут Ольга, я русский голос компании Loquendo. я читаю по-русски! не верите? \\item=Mmmm_02 , понимаю.  Вы хотите проверить! напишите что-нибудь, а я прочитаю. готовы?!! спасибо и до скорого! \\item=Kiss_03</item>
+        <item>Bonjour, mon nom est Olivier, et je suis la nouvelle voix synthétique préparée par Loquendo, pour le français québécois. Écrivez un texte, et je peux vous le lire.</item>
+        <item>Eccomi! \\item=Throat Sono Paola. Sono pronta a leggere quello che scriverai. Prego! E` difficile? \\item=Mmm Assolutamente no!! Prova a scrivere qualche cosa. Suvvia!</item>
+        <item>Goedendag! Mijn naam is Saskia, ik ben de nederlandse stem van Loquendo. \\item=Ehm Wilt u me testen? okidoki! Toets een willekeurige tekst in. Geweldig! Toch?! U moet weten, ik zit hier \\item=Cough sorry! \\item=Eh Ik zit hier de hele dag, en \'s nachts ook. Zeker! Dus?! Probeer \'t maar. Kom op! Bedankt! En, \\item=Ehm_01 tot ziens! \\item=Laugh_03 Ok?! Staat \'t erop? \\item=Breath Wat zegt je? Staat die microfoon nog open? \\item=Oeps</item>
+        <item>Hello everybody! Let me introduce myself! My name is Simon and I can say anything you want me to say. With punctuation, certain phrases become more expressive: just imagine it, or rather, just imagine it! You can also put in various effects. You can make me laugh - \\item=Laugh You can make me cry - \\item=Cry_01 You can even give me a cold - \\item=Sneeze_02 You see?! \\item=Yawn_01 I do apologise! I\'m terribly tired. Well, cheerio! See you soon! Bye!</item>
+        <item>\\item=Throat Damas y caballeros buenos días! Si me permiten quiero presentarme! Soy Soledad, la nueva voz sintética de Loquendo TTS, en español de América. Ya sé lo que Ustedes quieren. Quieren escucharme con mis sentimientos. Quieren que me ría, \\item=Laugh cuando estoy feliz. Que llore, \\item=Cry_03 si estoy triste. Qué chévere! Con mi voz pueden dejar a sus clientes sorprendidos.</item>
+        <item>\\item=Breath_01 Hallo liebe zuhörer! \\item=Cough Mein name ist Stefan, ich bin die neue, \\item=Cough_01 Entschuldigung! die neue Stimme, \\item=Cough_07 \\item=Swallow \\item=Ehm_03 Ok! Wo waren wir stehen geblieben?! \\item=Ah Die neue deutsche Stimme von Loquendo TTS. Genau, das bin ich. \\item=Cough_06 Stimmt etwas nicht?!</item>
+        <item>Hey! Hello everybody! I\'m Steven, Loquendo\'s brand new American voice. Nice to meet you! Sorry what did you say?! You didn\'t know that a machine could be happy? definitely!! why not! \\item=Laugh . But sometimes we get depressed, too, \\item=Sigh_01  Well! You see, here at Loquendo, even computers can show their feelings, \\item=Singing</item>
+        <item>Hello?! Anybody there?! I\'m Susan. \\item=Kiss \\item=Laugh Do you have a minute?! So listen, my voice already sounds pretty fantastic, right?! Guess what?! You can make it sound even better. You can add various effects, \\item=Oooh or, with a little punctuation, certain phrases become more expressive: that\'s impossible, or rather, that\'s impossible! Well then?! What would you like me to say? I\'m all ears!</item>
+        <item>Hej! Trevligt att träffas! Jag heter Sven, och jag har skapats av Loquendo. Jag är en väldigt intelligent syntetisk röst. Vill du inte prova? Du kan skriva något här, och sedan höra mig läsa upp det. Du kan också använda olika effekter. Jag kan till exempel skratta \\item=Laugh , gråta \\item=Cry_01 , och till och med sjunga \\item=Singing_01 . Ha en bra dag! Hej hej!</item>
+        <item>\\item=Throat_01 ciao! \\item=Cough Dit is Willem, de nederlandse stem van Loquendo. \\item=Ehm Wilt u me testen? okidoki! U kunt me laten zeggen wat u wilt. \\item=Laugh_05 U moet weten, Ik zit hier namelijk \\item=Swallow_01 sorry! \\item=Eh Ik zit hier 24 uur per dag, 365 dagen per jaar. Jazeker! Dus?! Kom op! Voer een tekst in, en ik spreek hem voor u uit. Bedankt!</item>
+        <item>Merhaba, benim adım Zeynep. Bir cümle yazın, bende size geri okuyayım. Hadi, dilediğinizi yazın. İsterseniz sizin için gülebilir \\item=Laugh_01 yada sizinle ağlayabilirim. \\item=Cry_01 Kış gelince hastalanıp, hapşırabilirim. \\item=Sneeze \\item=Sneeze Dileyin benden ne dilerseniz. Hadi başlayalım. Ne duruyorsunuz!</item>
+        <item>Halo! Słyszycie mnie! \\item=Poprawianie-glosu_02 Słyszą państwo? \\item=Poprawianie-glosu_01 Chciałabym się przedstawić! Jestem Zosia, i jestem nowym syntetycznym głosem stworzonym przez Loquendo. Jestem zaskoczona, ale zostałam stworzona z duszą pełną emocji. Kiedy jestem wesoła śpiewam \\item=Spiew_01 , kiedy jestem chora kicham \\item=Kichanie i kaszlę \\item=Kaszel , kiedy jestem zakochana całuje \\item=Buziaki , płaczę \\item=Placz , śmieję się \\item=Smiech_01 .</item>        
+    </string-array>
+
+<string-array name="file_array">
+      <item name="read">Read text from file</item>
+      <item name="green">green.txt</item>
+      <item name="blue">blue.txt</item>
+</string-array>
+<string-array name="refresh_times">
+    <item>by hand</item>
+    <item>every minute</item>
+    <item>every 5 minutes</item>
+    <item>every 10 minutes</item>
+    <item>every 15 minutes</item>
+    <item>every 30 minutes</item>
+    <item>every hour</item>
+</string-array> 
+</resources>

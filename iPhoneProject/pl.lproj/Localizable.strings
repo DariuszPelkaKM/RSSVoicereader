@@ -1,0 +1,64 @@
+﻿/* 
+   Localizable.strings
+   RSS Reader
+
+   Created by Mateusz Bajer on 10.04.28.
+   Copyright 2010 ANTiSoftware. All rights reserved.
+ */
+ 
+// GENERAL
+"TabTitles" = "Kanały RSS;Zapisane;Przeglądarka;Ustawienia;O programie";
+"CancelBtnTitle" = "Anuluj";
+"OKBtnTitle" = "OK";
+"LoadingAppIDErrorTitle" = "Pobieranie ID aplikacji";
+"LoadingBuiltInChannedlsErrorTitle" = "Pobieranie definicji kanałów";
+
+// CHANNELS
+"ChannelsTitle" = "Kanały RSS";
+"AddNewChannel" = "Dodaj nowy kanał...";
+"RemovingChannelTitle" = "Usuwanie kanału";
+"RemovingChannelMsg" = "Czy na pewno usunąć kanał RSS? Tej operacji nie będzie można cofnąć.";
+"RemoveBtnTitle" = "Usuń";
+
+// SAVED
+"SavedTitle" = "Zapisane";
+
+// CHANNEL/TOPIC
+"EMailArticle" = "Wyślij artykuł (email)";
+"CopyURL" = "Kopiuj URL";
+"CopyContents" = "Kopiuj artykuł";
+"Save" = "Zapisz";
+"SendingArticle" = "Artykuł wysłany przez %@";
+
+// SETTINGS
+"SettingsTitle" = "Ustawienia";
+"SettingsRefreshTimeout" = "Odświeżaj";
+"neverRefresh" = "tylko ręcznie";
+"each1minute" = "co minutę";
+"each5minutes" = "co 5 minut";
+"each10minutes" = "co 10 minut";
+"each15minutes" = "co 15 minut";
+"each30minutes" = "co 30 minut";
+"SettingsRemoveNewsAfter" = "Usuwaj wiadomości";
+"everyHour" = "co godzinę";
+"neverRemove" = "nigdy";
+"after1day" = "po 1 dniu";
+"after2days" = "po 2 dniach";
+"after5days" = "po 5 dniach";
+"after10days" = "po 10 dniach";
+"after2weeks" = "po 2 tygodniach";
+"after4weeks" = "po 4 tygodniach";
+"SettingsOnlyWiFiConnection" = "Wymagaj WiFi";
+"SettingsEnableAudioEffects" = "Włącz dźwięki";
+
+
+// BROWSER
+"BrowserTypeURL" = "Wpisz adres WWW";
+"CannotOpenPage" = "Nie można otworzyć strony";
+"CannotOpenPageMsg" = "%@ nie może otworzyć strony, ponieważ nie można znaleźć serwera.";
+
+// ERRORS
+"ErrorTitle" = "Błąd";
+"ChannelErrorTitle" = "Błąd kanału %@";
+"HTTPError" = "Błąd protokołu HTTP";
+"EmptyArticleURL" = "Brak zdefiniowanego linku do artykułu.";

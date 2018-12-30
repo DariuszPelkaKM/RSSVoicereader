@@ -1,0 +1,1777 @@
+TRSS Reader
+v7
+r0
+t300584625.745623
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Info.plist" RSS_Reader-Info.plist
+cCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/MainWindow.xib"
+cCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/About.xib"
+cCopyStringsFile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+cCopyStringsFile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/pl.lproj/Localizable.strings" pl.lproj/Localizable.strings
+cCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelView.xib"
+cCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/News.xib"
+cCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Article.xib"
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/empty.png" Images/empty.png
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/blueDot2.png" Images/blueDot2.png
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/down.png" Images/down.png
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/up.png" Images/up.png
+cCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleHeader.xib"
+cCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Browser.xib"
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/back.png" Images/back.png
+cCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTable.xib"
+cCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Empty.xib"
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/goodbye.wav" Sounds/goodbye.wav
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/tap.aiff" Sounds/tap.aiff
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/browser2.png" Images/Icons/browser2.png
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/info.png" Images/Icons/info.png
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/rss2.png" Images/Icons/rss2.png
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/save2.png" Images/Icons/save2.png
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/settings2.png" Images/Icons/settings2.png
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/icon.png" Images/icon.png
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/Welcome_eng.wav" Sounds/Welcome_eng.wav
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/about.jpg" Images/about.jpg
+cCpResource "build/Debug-iphonesimulator/RSS Reader.app/Default.png" Images/Default.png
+cProcessPCH /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch.gch RSS_Reader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/main.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AppDelegate.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelsViewController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelViewController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AboutController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AboutController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NewsController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/NewsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ArticleController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SettingsController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/SettingsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/BrowserController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/BrowserController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Channel.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Channel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ValueTableController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTableController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Reachability.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Article.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Article.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticlesController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticlesController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/TabBarController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/TabBarController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticle.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticle.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSObject+SBJSON.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSString+SBJSON.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJSON.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonBase.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonParser.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonWriter.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SoundEffect.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SoundEffect.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/mobileAPI.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/mobileAPI.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/xmlElement.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/xmlElement.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/URLHelper.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/URLHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader" normal i386
+cGenerateDSYMFile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app.dSYM" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader"
+cTouch "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BD236930000000000000110
+t1272067731
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BD2001C0000000000193D80
+t1272053788
+s1654144
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004BD1FFCD000000000000E37C
+t1272053709
+s58236
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004BD1CD3500000000000004CF
+t1272040757
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004BD1FECD0000000000000A99
+t1272053453
+s2713
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
+c000000004BD1D89600000000000028E4
+t1272043670
+s10468
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004BD1D89E000000000009D490
+t1272043678
+s644240
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004BD1CD110000000000001A78
+t1272040721
+s6776
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004BD1CD190000000000055570
+t1272040729
+s349552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/arpa/inet.h
+c00000000464386D70000000000001533
+t1178830551
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/ifaddrs.h
+c00000000464386E00000000000000782
+t1178830560
+s1922
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/netdb.h
+c00000000464386E20000000000002F2B
+t1178830562
+s12075
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/netinet/in.h
+c00000000476344B700000000000052AA
+t1197687991
+s21162
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/netinet6/in6.h
+c00000000476344BA0000000000004970
+t1197687994
+s18800
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/sys/socket.h
+c00000000476344C000000000000055F1
+t1197688000
+s22001
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/lib/libxml2.dylib
+c000000004BD1CD8F0000000000122A80
+t1272040847
+s1190528
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/512x512-new.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/57x57-new2.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/About.xib
+c000000004C3A4D8D00000000000052F2
+t1278889357
+s21234
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Article.h
+c000000004C34A40B0000000000000561
+t1278518283
+s1377
+i<Foundation/Foundation.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Article.m
+c000000004C34A4540000000000000F0B
+t1278518356
+s3851
+i"Article.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Channel.h
+c000000004C34FFA8000000000000081B
+t1278541736
+s2075
+i<Foundation/Foundation.h>
+i"Article.h"
+i"xmlElement.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Channel.m
+c000000004C350B530000000000003A7C
+t1278544723
+s14972
+i"Channel.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AboutController.h
+c000000004C351D1D000000000000013C
+t1278549277
+s316
+i<UIKit/UIKit.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AboutController.m
+c000000004C351D1F000000000000041A
+t1278549279
+s1050
+i"AboutController.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AppDelegate.h
+c000000004C39CDAA0000000000000989
+t1278856618
+s2441
+i<UIKit/UIKit.h>
+i"Reachability.h"
+i"JSON.h"
+i"SoundEffect.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AppDelegate.m
+c000000004C3A46620000000000003849
+t1278887522
+s14409
+i"AppDelegate.h"
+i"Article.h"
+i<CFNetwork/CFNetwork.h>
+i"mobileAPI.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Article.xib
+c000000004C38AD820000000000005826
+t1278782850
+s22566
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleController.h
+c000000004C35E77E0000000000000852
+t1278601086
+s2130
+i<UIKit/UIKit.h>
+i<MessageUI/MFMailComposeViewController.h>
+i"Article.h"
+i"Channel.h"
+i"AppDelegate.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleController.m
+c000000004C390CFF0000000000002F97
+t1278807295
+s12183
+i"ArticleController.h"
+i"SavedArticle.h"
+i"URLHelper.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleHeader.xib
+c000000004C35F6680000000000008AD1
+t1278604904
+s35537
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Browser.xib
+c000000004C1571BD000000000000434E
+t1276473789
+s17230
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/BrowserController.h
+c000000004C38B4B000000000000003DE
+t1278784688
+s990
+i<UIKit/UIKit.h>
+i"AppDelegate.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/BrowserController.m
+c000000004C3902CC0000000000001433
+t1278804684
+s5171
+i"BrowserController.h"
+i"Reachability.h"
+i"URLHelper.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelView.xib
+c000000004BEC3A1F0000000000006BC9
+t1273772575
+s27593
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelViewController.h
+c000000004C35281C00000000000005B9
+t1278552092
+s1465
+i<UIKit/UIKit.h>
+i"Channel.h"
+i"AppDelegate.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelViewController.m
+c000000004C352D9600000000000010E4
+t1278553494
+s4324
+i"ChannelViewController.h"
+i"Reachability.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.h
+c000000004C39E3780000000000000432
+t1278862200
+s1074
+i<UIKit/UIKit.h>
+i"ChannelViewController.h"
+i"AppDelegate.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m
+c000000004C3A50E10000000000004999
+t1278890209
+s18841
+i"ChannelsViewController.h"
+i"NewsController.h"
+i"Channel.h"
+i"Reachability.h"
+i"JSON.h"
+i"mobileAPI.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/News.xib
+c000000004C38A0B80000000000004E8E
+t1278779576
+s20110
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/NewsController.h
+c000000004C1E7F4F0000000000000298
+t1277067087
+s664
+i<UIKit/UIKit.h>
+i"ArticleController.h"
+i"Channel.h"
+i"AppDelegate.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/NewsController.m
+c000000004C3A5400000000000000287A
+t1278891008
+s10362
+i"NewsController.h"
+i"ArticleController.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Reachability.h
+c000000004A7B0B620000000000000F19
+t1249577826
+s3865
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Reachability.m
+c000000004C22626C00000000000023A7
+t1277321836
+s9127
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/SettingsController.h
+c000000004C1A5E6E0000000000000246
+t1276796526
+s582
+i<UIKit/UIKit.h>
+i"ValueTableController.h"
+i"AppDelegate.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/SettingsController.m
+c000000004C1CAFD500000000000021BC
+t1276948437
+s8636
+i"SettingsController.h"
+i"ValueTableController.h"
+i"AppDelegate.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Empty.xib
+c000000004C2BB5F200000000000059DD
+t1277933042
+s23005
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/English.lproj/Localizable.strings
+c000000004C35B88F0000000000001212
+t1278589071
+s4626
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Default.png
+c000000004C2BBC1400000000000046F0
+t1277934612
+s18160
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/browser2.png
+c000000004C2BAF5B0000000000000E50
+t1277931355
+s3664
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/info.png
+c000000004C2BAF5B00000000000001F6
+t1277931355
+s502
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/rss2.png
+c000000004C2BAF5B0000000000000FCD
+t1277931355
+s4045
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/save2.png
+c000000004C2BAF5B0000000000000FA0
+t1277931355
+s4000
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/settings2.png
+c000000004C2BAF5B0000000000000FEE
+t1277931355
+s4078
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/about-NEW.png
+c000000004C38A5600000000000009019
+t1278780768
+s36889
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/about.jpg
+c000000004C2BB19C0000000000015BF7
+t1277931932
+s89079
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/back.png
+c000000004BDCB20600000000000000C9
+t1272754694
+s201
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/background.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/blueDot.png
+c000000004BD94FD80000000000000199
+t1272532952
+s409
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/blueDot2.png
+c000000004BD9573A000000000000012C
+t1272534842
+s300
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/down.png
+c000000004BD9FE2000000000000000E2
+t1272577568
+s226
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/empty.png
+c000000004BD94FFE000000000000007A
+t1272532990
+s122
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/icon.png
+c000000004C2C59B90000000000001007
+t1277974969
+s4103
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/read.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/unread.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/up.png
+c000000004BD9FE0E00000000000000D9
+t1272577550
+s217
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/JSON.h
+c000000004B93BE5E00000000000008F9
+t1267973726
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSObject+SBJSON.h
+c000000004B93BE5E0000000000000A01
+t1267973726
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSObject+SBJSON.m
+c000000004B93BE5E000000000000089E
+t1267973726
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSString+SBJSON.h
+c000000004B93BE5E0000000000000916
+t1267973726
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSString+SBJSON.m
+c000000004B93BE5E000000000000087D
+t1267973726
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJSON.h
+c000000004B93BE5E0000000000000AED
+t1267973726
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJSON.m
+c000000004B93BE5E0000000000001ABC
+t1267973726
+s6844
+i"SBJSON.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonBase.h
+c000000004B93BE5E0000000000000B82
+t1267973726
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonBase.m
+c000000004B93BE5E0000000000000AC1
+t1267973726
+s2753
+i"SBJsonBase.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonParser.h
+c000000004B93BE5E0000000000000C0B
+t1267973726
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonParser.m
+c000000004B93C6A300000000000036D0
+t1267975843
+s14032
+i"SBJsonParser.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonWriter.h
+c000000004B93BE5E0000000000001140
+t1267973726
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonWriter.m
+c000000004B93BE5E0000000000001F26
+t1267973726
+s7974
+i"SBJsonWriter.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/MainWindow.xib
+c000000004C3A4CAE000000000000F12F
+t1278889134
+s61743
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/RSS_Reader_Prefix.pch
+c000000004BD7586100000000000000BD
+t1272404065
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticle.h
+c000000004C1EB4EF0000000000000203
+t1277080815
+s515
+i<Foundation/Foundation.h>
+i"Article.h"
+i"Channel.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticle.m
+c000000004C1EB294000000000000046A
+t1277080212
+s1130
+i"SavedArticle.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticlesController.h
+c000000004C227CD700000000000001B8
+t1277328599
+s440
+i<UIKit/UIKit.h>
+i"AppDelegate.h"
+i"ArticleController.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticlesController.m
+c000000004C3A540B00000000000021D8
+t1278891019
+s8664
+i"SavedArticlesController.h"
+i"SavedArticle.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SoundEffect.h
+c000000004AB169B80000000000000A85
+t1253140920
+s2693
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SoundEffect.m
+c000000004C22A4EC0000000000000FB4
+t1277338860
+s4020
+i"SoundEffect.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Sounds/Welcome_eng.wav
+c000000004C3490230000000000058A30
+t1278513187
+s363056
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Sounds/goodbye.wav
+c000000004C22A29A000000000003A274
+t1277338266
+s238196
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Sounds/tap.aiff
+c000000004C22A3050000000000001778
+t1277338373
+s6008
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/TabBarController.h
+c000000004C1CFD1700000000000000E5
+t1276968215
+s229
+i<UIKit/UIKit.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/TabBarController.m
+c000000004C22724A000000000000021A
+t1277325898
+s538
+i"TabBarController.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/URLHelper.h
+c000000004C35FC200000000000000113
+t1278606368
+s275
+i<Foundation/Foundation.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/URLHelper.m
+c000000004C35FCD0000000000000025C
+t1278606544
+s604
+i"URLHelper.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTable.xib
+c000000004C1713BF0000000000001BE8
+t1276580799
+s7144
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTableController.h
+c000000004C19B97E000000000000028C
+t1276754302
+s652
+i<UIKit/UIKit.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTableController.m
+c000000004C1CDDEB000000000000142E
+t1276960235
+s5166
+i"ValueTableController.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Welcome_eng.wav
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/about.jpg
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app
+t1278891825
+s1088
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app.dSYM
+t1278891825
+s102
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/512x512-new.png
+t1278779618
+s30489
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/57x57-new2.png
+t1278779618
+s2539
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/About.nib
+t1278891806
+s2143
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Article.nib
+t1278891812
+s1765
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/ArticleHeader.nib
+t1278891813
+s5237
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Browser.nib
+t1278891814
+s4480
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/ChannelView.nib
+t1278891811
+s4791
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Default.png
+t1278891814
+s18160
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Empty.nib
+t1278891816
+s2738
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/English.lproj/Localizable.strings
+t1278891808
+s1931
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Info.plist
+t1278891790
+s779
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/MainWindow.nib
+t1278891807
+s6929
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/News.nib
+t1278891811
+s1666
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/PkgInfo
+t1278891790
+s8
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader
+t1278891824
+s264064
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/ValueTable.nib
+t1278891814
+s1487
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Welcome_eng.wav
+t1278891814
+s363056
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/about-NEW.png
+t1278780804
+s36889
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/about.jpg
+t1278891814
+s89079
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/back.png
+t1278891813
+s201
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/background.png
+t1278779618
+s18617
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/blueDot.png
+t1278779617
+s409
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/blueDot2.png
+t1278891812
+s300
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/browser2.png
+t1278891814
+s3664
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/channel.png
+t1278779618
+s1313
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/down.png
+t1278891812
+s226
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/empty.png
+t1278891812
+s122
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/goodbye.wav
+t1278891814
+s238196
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/icon.png
+t1278891814
+s4103
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/info.png
+t1278891814
+s502
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/pl.lproj/Localizable.strings
+t1278891808
+s2517
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/read.png
+t1278779618
+s586
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/rss2.png
+t1278891814
+s4045
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/save2.png
+t1278891814
+s4000
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/settings2.png
+t1278891814
+s4078
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/tap.aiff
+t1278891814
+s6008
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/unread.png
+t1278781461
+s616
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/up.png
+t1278891812
+s217
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/welcome.wav
+t1278779618
+s363160
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AboutController.o
+t1278891821
+s37428
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AppDelegate.o
+t1278891820
+s95508
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Article.o
+t1278891822
+s32012
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ArticleController.o
+t1278891821
+s101528
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/BrowserController.o
+t1278891822
+s72440
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Channel.o
+t1278891822
+s74048
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelViewController.o
+t1278891821
+s61296
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelsViewController.o
+t1278891821
+s110776
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSObject+SBJSON.o
+t1278891823
+s8364
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSString+SBJSON.o
+t1278891823
+s8284
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NewsController.o
+t1278891821
+s77960
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/RSS Reader.LinkFileList
+c000000004C3A570E0000000000001201
+t1278891790
+s4609
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Reachability.o
+t1278891822
+s23432
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJSON.o
+t1278891823
+s20152
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonBase.o
+t1278891823
+s13284
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonParser.o
+t1278891823
+s36016
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonWriter.o
+t1278891824
+s25620
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticle.o
+t1278891823
+s13400
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticlesController.o
+t1278891823
+s75820
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SettingsController.o
+t1278891821
+s69348
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SoundEffect.o
+t1278891824
+s10956
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/TabBarController.o
+t1278891823
+s35936
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/URLHelper.o
+t1278891824
+s8460
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ValueTableController.o
+t1278891822
+s44932
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/main.o
+t1278891820
+s6384
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/mobileAPI.o
+t1278891824
+s6660
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/xmlElement.o
+t1278891824
+s13796
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/channel.png
+c000000004C388EEE0000000000000521
+t1278775022
+s1313
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/goodbye.wav
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/main.m
+c000000004BD758610000000000000165
+t1272404065
+s357
+i<UIKit/UIKit.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/mobileAPI.h
+c000000004C39E1800000000000000318
+t1278861696
+s792
+i<Foundation/Foundation.h>
+i"JSON.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/mobileAPI.m
+c000000004C2358C40000000000000138
+t1277384900
+s312
+i"mobileAPI.h"
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/pl.lproj/Localizable.strings
+c000000004C35B8570000000000000875
+t1278589015
+s2165
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/tap.aiff
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/welcome.wav
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/xmlElement.h
+c000000004C3500E9000000000000027E
+t1278542057
+s638
+i<Foundation/Foundation.h>
+
+N/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/xmlElement.m
+c000000004C3500F100000000000002E8
+t1278542065
+s744
+i"xmlElement.h"
+
+N/var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch.gch
+t1278891819
+s13825936
+
+NRSS_Reader-Info.plist
+c000000004C3A56FA0000000000000440
+t1278891770
+s1088
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies300584590#300584590#0(0"0(0#1#0"8634170656#0"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AboutController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AboutController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584621.379378
+e300584621.448490
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AboutController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AboutController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AboutController.m300584621#300584621#0(0"0(0#0#104"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AboutController.m8630324224#2479"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AboutController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AboutController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AppDelegate.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584620.802383
+e300584621.000614
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AppDelegate.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AppDelegate.m300584620#300584621#0(0"0(0#0#100"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AppDelegate.m8631447328#2471"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/AppDelegate.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/AppDelegate.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Article.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Article.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584622.611605
+e300584622.816839
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Article.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Article.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Article.m300584622#300584622#0(0"0(0#0#88"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Article.m8626191040#2455"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Article.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Article.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ArticleController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584621.613153
+e300584621.814145
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ArticleController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleController.m300584621#300584621#0(0"0(0#0#106"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleController.m8624122464#2483"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ArticleController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/BrowserController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/BrowserController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584621.946475
+e300584622.111936
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/BrowserController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/BrowserController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/BrowserController.m300584621#300584622#0(0"0(0#0#106"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/BrowserController.m8629958976#2483"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/BrowserController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/BrowserController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Channel.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Channel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584622.112109
+e300584622.322256
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Channel.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Channel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Channel.m300584622#300584622#0(0"0(0#0#88"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Channel.m8624439424#2455"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Channel.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Channel.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelViewController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584621.264492
+e300584621.379259
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelViewController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelViewController.m300584621#300584621#0(0"0(0#0#110"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelViewController.m8632026144#2491"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelViewController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelViewController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelsViewController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584621.000726
+e300584621.264382
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelsViewController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m: In function '-[ChannelsViewController connectionDidFinishLoading:]':
+o/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m:472: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:367)
+lSLF07#2@119"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m300584621#300584621#0(518"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m: In function '-[ChannelsViewController connectionDidFinishLoading:]':/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m:472: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:367)1(22@209"'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:367)300584621#182#336#0(6@111"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m300583009#472#0#472#0#33"'*' is deprecated (declared at *)0(0#0#111"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m8628803264#2493"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelsViewController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ChannelsViewController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSObject+SBJSON.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584623.242331
+e300584623.301625
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSObject+SBJSON.m300584623#300584623#0(0"0(0#0#101"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSObject+SBJSON.m8634061984#2476"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSObject+SBJSON.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSObject+SBJSON.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSString+SBJSON.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584623.301735
+e300584623.523256
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSString+SBJSON.m300584623#300584623#0(0"0(0#0#101"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSString+SBJSON.m8630881952#2476"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/NSString+SBJSON.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NSString+SBJSON.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NewsController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/NewsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584621.448611
+e300584621.613040
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NewsController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/NewsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/NewsController.m300584621#300584621#0(0"0(0#0#103"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/NewsController.m8629106144#2477"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/NewsController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/NewsController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Reachability.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584622.464691
+e300584622.611500
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Reachability.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Reachability.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Reachability.m300584622#300584622#0(0"0(0#0#101"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Reachability.m8630025216#2473"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Reachability.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/Reachability.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJSON.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584623.523421
+e300584623.597268
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJSON.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJSON.m300584623#300584623#0(0"0(0#0#92"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJSON.m8629264416#2458"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJSON.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJSON.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonBase.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584623.597379
+e300584623.664018
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonBase.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonBase.m300584623#300584623#0(0"0(0#0#96"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonBase.m8629711296#2466"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonBase.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonBase.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonParser.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584623.664133
+e300584623.771335
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonParser.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonParser.m300584623#300584623#0(0"0(0#0#98"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonParser.m8620636832#2470"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonParser.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonParser.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonWriter.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584623.771451
+e300584624.027739
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonWriter.m300584623#300584624#0(0"0(0#0#98"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonWriter.m8628814048#2470"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/JSON/SBJsonWriter.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SBJsonWriter.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticle.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticle.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584623.142744
+e300584623.242219
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticle.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticle.m300584623#300584623#0(0"0(0#0#93"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticle.m8628923936#2465"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticle.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticle.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticlesController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticlesController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584622.816961
+e300584623.039841
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticlesController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticlesController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticlesController.m300584622#300584623#0(0"0(0#0#104"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticlesController.m8631969504#2487"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SavedArticlesController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SavedArticlesController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SettingsController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/SettingsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584621.814314
+e300584621.946371
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SettingsController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/SettingsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@115"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/SettingsController.m300584621#300584621#0(0"0(0#0#107"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/SettingsController.m8631949952#2485"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/SettingsController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SettingsController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SoundEffect.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SoundEffect.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584624.028042
+e300584624.119587
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SoundEffect.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SoundEffect.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SoundEffect.m300584624#300584624#0(0"0(0#0#92"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SoundEffect.m8634260160#2463"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/SoundEffect.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/SoundEffect.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/TabBarController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/TabBarController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584623.039946
+e300584623.142637
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/TabBarController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/TabBarController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/TabBarController.m300584623#300584623#0(0"0(0#0#97"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/TabBarController.m8629917600#2473"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/TabBarController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/TabBarController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/URLHelper.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/URLHelper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584624.292029
+e300584624.430110
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/URLHelper.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/URLHelper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/URLHelper.m300584624#300584624#0(0"0(0#0#90"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/URLHelper.m8620961184#2459"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/URLHelper.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/URLHelper.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ValueTableController.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTableController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584622.322508
+e300584622.464569
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ValueTableController.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTableController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTableController.m300584622#300584622#0(0"0(0#0#101"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTableController.m8631926016#2481"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTableController.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/ValueTableController.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/main.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584620.644528
+e300584620.802189
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/main.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/main.m300584620#300584620#0(0"0(0#0#85"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/main.m8634351264#2449"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/main.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/mobileAPI.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/mobileAPI.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584624.119795
+e300584624.213815
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/mobileAPI.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/mobileAPI.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/mobileAPI.m300584624#300584624#0(0"0(0#0#90"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/mobileAPI.m8631458400#2459"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/mobileAPI.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/mobileAPI.o"0#
+
+CCompileC "build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/xmlElement.o" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/xmlElement.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584624.213956
+e300584624.291914
+r1
+xCompileC
+xbuild/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/xmlElement.o
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/xmlElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/xmlElement.m300584624#300584624#0(0"0(0#0#91"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/xmlElement.m8629474080#2461"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -include /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/xmlElement.m" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/xmlElement.o"0#
+
+CCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/About.xib"
+s300584590.920260
+e300584607.342329
+r1
+xCompileXIB
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/About.xib
+lSLF07#2@20"CompileXIB About.xib300584590#300584607#0(0"0(0#0#88"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/About.xib8634268192#689"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/About.nib" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/About.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Article.xib"
+s300584611.686580
+e300584613.420350
+r1
+xCompileXIB
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Article.xib
+lSLF07#2@30"CompileXIB Classes/Article.xib300584611#300584613#0(0"0(0#0#98"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Article.xib8630681152#701"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Article.nib" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Article.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleHeader.xib"
+s300584611.945295
+e300584613.663684
+r1
+xCompileXIB
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleHeader.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleHeader.xib:21: warning: The number of segments property of a segmented control must be greater than or equal to 2.
+lSLF07#2@36"CompileXIB Classes/ArticleHeader.xib300584611#300584613#0(250"/* com.apple.ibtool.document.warnings *//Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleHeader.xib:21: warning: The number of segments property of a segmented control must be greater than or equal to 2.1(22@90"The number of segments property of a segmented control must be greater than or equal to 2.300584613#18446744073709551615#0#0(6@104"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleHeader.xib300297704#21#0#21#0#0"0(0#0#104"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleHeader.xib8632654016#713"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/ArticleHeader.nib" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ArticleHeader.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Browser.xib"
+s300584613.420599
+e300584614.466304
+r1
+xCompileXIB
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Browser.xib
+lSLF07#2@30"CompileXIB Classes/Browser.xib300584613#300584614#0(0"0(0#0#98"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Browser.xib8631947680#701"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Browser.nib" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/Browser.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelView.xib"
+s300584608.275995
+e300584611.823798
+r1
+xCompileXIB
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelView.xib
+lSLF07#2@34"CompileXIB Classes/ChannelView.xib300584608#300584611#0(0"0(0#0#102"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelView.xib8617926624#709"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/ChannelView.nib" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/ChannelView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/News.xib"
+s300584608.277143
+e300584611.686344
+r1
+xCompileXIB
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/News.xib
+lSLF07#2@27"CompileXIB Classes/News.xib300584608#300584611#0(0"0(0#0#95"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/News.xib8615594176#695"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/News.nib" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Classes/News.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Empty.xib"
+s300584614.343141
+e300584616.126044
+r1
+xCompileXIB
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Empty.xib
+lSLF07#2@20"CompileXIB Empty.xib300584614#300584616#0(0"0(0#0#88"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Empty.xib8635311648#689"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Empty.nib" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Empty.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/MainWindow.xib"
+s300584590.917997
+e300584607.537855
+r1
+xCompileXIB
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib300584590#300584607#0(0"0(0#0#93"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/MainWindow.xib8634603648#699"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/MainWindow.nib" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCompileXIB "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTable.xib"
+s300584613.664588
+e300584614.343038
+r1
+xCompileXIB
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTable.xib
+lSLF07#2@25"CompileXIB ValueTable.xib300584613#300584614#0(0"0(0#0#93"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTable.xib8631150880#699"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/ValueTable.nib" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/ValueTable.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCopyStringsFile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/English.lproj/Localizable.strings" English.lproj/Localizable.strings
+s300584607.342598
+e300584608.252105
+r1
+xCopyStringsFile
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings300584607#300584608#0(0"0(0#0#112"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/English.lproj/Localizable.strings8636297088#583"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding binary English.lproj/Localizable.strings --outdir "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/English.lproj"0#
+
+CCopyStringsFile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/pl.lproj/Localizable.strings" pl.lproj/Localizable.strings
+s300584607.537969
+e300584608.277066
+r1
+xCopyStringsFile
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/pl.lproj/Localizable.strings
+xpl.lproj/Localizable.strings
+lSLF07#2@33"Copy pl.lproj/Localizable.strings300584607#300584608#0(0"0(0#0#107"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/pl.lproj/Localizable.strings8630752480#572"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary pl.lproj/Localizable.strings --outdir "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/pl.lproj"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/512x512-new.png" 512x512-new.png
+s300472418.148464
+e300472418.189948
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/512x512-new.png
+x512x512-new.png
+lSLF07#2@20"Copy 512x512-new.png300472418#300472418#0(0"0(0#0#94"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/512x512-new.png8618064864#588"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/512x512-new.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/57x57-new2.png" 57x57-new2.png
+s300472418.139624
+e300472418.190200
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/57x57-new2.png
+x57x57-new2.png
+lSLF07#2@19"Copy 57x57-new2.png300472418#300472418#0(0"0(0#0#93"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/57x57-new2.png8620764480#587"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/57x57-new2.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/Default.png" Images/Default.png
+s300584614.750674
+e300584614.798380
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/Default.png
+xImages/Default.png
+lSLF07#2@23"Copy Images/Default.png300584614#300584614#0(0"0(0#0#97"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Default.png8629845504#591"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Default.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/Welcome_eng.wav" Sounds/Welcome_eng.wav
+s300584614.479956
+e300584614.952767
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/Welcome_eng.wav
+xSounds/Welcome_eng.wav
+lSLF07#2@27"Copy Sounds/Welcome_eng.wav300584614#300584614#0(0"0(0#0#101"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Sounds/Welcome_eng.wav8601837312#595"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Sounds/Welcome_eng.wav" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/Welcome_eng.wav" Welcome_eng.wav
+s300472418.134732
+e300472418.174998
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/Welcome_eng.wav
+xWelcome_eng.wav
+lSLF07#2@20"Copy Welcome_eng.wav300472418#300472418#0(0"0(0#0#94"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Welcome_eng.wav8621177600#588"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Welcome_eng.wav" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/about-NEW.png" Images/about-NEW.png
+s300473604.574379
+e300473604.620297
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/about-NEW.png
+xImages/about-NEW.png
+lSLF07#2@25"Copy Images/about-NEW.png300473604#300473604#0(0"0(0#0#99"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/about-NEW.png8620817344#593"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/about-NEW.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/about.jpg" Images/about.jpg
+s300584614.489924
+e300584614.838011
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/about.jpg
+xImages/about.jpg
+lSLF07#2@21"Copy Images/about.jpg300584614#300584614#0(0"0(0#0#95"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/about.jpg8630346464#589"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/about.jpg" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/about.jpg" about.jpg
+s300472418.138586
+e300472418.175132
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/about.jpg
+xabout.jpg
+lSLF07#2@14"Copy about.jpg300472418#300472418#0(0"0(0#0#88"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/about.jpg8620947328#582"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/about.jpg" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/back.png" Images/back.png
+s300584613.663782
+e300584613.691630
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/back.png
+xImages/back.png
+lSLF07#2@20"Copy Images/back.png300584613#300584613#0(0"0(0#0#94"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/back.png8631476480#588"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/back.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/background.png" Images/background.png
+s300472418.159507
+e300472418.190317
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/background.png
+xImages/background.png
+lSLF07#2@26"Copy Images/background.png300472418#300472418#0(0"0(0#0#100"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/background.png8617922720#594"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/background.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/blueDot.png" Images/blueDot.png
+s300472417.042794
+e300472417.059039
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/blueDot.png
+xImages/blueDot.png
+lSLF07#2@23"Copy Images/blueDot.png300472417#300472417#0(0"0(0#0#97"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/blueDot.png8625377504#591"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/blueDot.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/blueDot2.png" Images/blueDot2.png
+s300584611.941843
+e300584612.105163
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/blueDot2.png
+xImages/blueDot2.png
+lSLF07#2@24"Copy Images/blueDot2.png300584611#300584612#0(0"0(0#0#98"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/blueDot2.png8613776640#592"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/blueDot2.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/browser2.png" Images/Icons/browser2.png
+s300584614.467903
+e300584614.752215
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/browser2.png
+xImages/Icons/browser2.png
+lSLF07#2@30"Copy Images/Icons/browser2.png300584614#300584614#0(0"0(0#0#104"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/browser2.png8631548128#598"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/browser2.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/channel.png" channel.png
+s300472418.144628
+e300472418.175248
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/channel.png
+xchannel.png
+lSLF07#2@16"Copy channel.png300472418#300472418#0(0"0(0#0#90"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/channel.png8618566912#584"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/channel.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/down.png" Images/down.png
+s300584611.942598
+e300584612.152552
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/down.png
+xImages/down.png
+lSLF07#2@20"Copy Images/down.png300584611#300584612#0(0"0(0#0#94"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/down.png8635584960#588"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/down.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/empty.png" Images/empty.png
+s300584611.823900
+e300584612.142113
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/empty.png
+xImages/empty.png
+lSLF07#2@21"Copy Images/empty.png300584611#300584612#0(0"0(0#0#95"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/empty.png8617481088#589"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/empty.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/goodbye.wav" Sounds/goodbye.wav
+s300584614.466413
+e300584614.915715
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/goodbye.wav
+xSounds/goodbye.wav
+lSLF07#2@23"Copy Sounds/goodbye.wav300584614#300584614#0(0"0(0#0#97"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Sounds/goodbye.wav8632314016#591"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Sounds/goodbye.wav" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/goodbye.wav" goodbye.wav
+s300472418.089102
+e300472418.133402
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/goodbye.wav
+xgoodbye.wav
+lSLF07#2@16"Copy goodbye.wav300472418#300472418#0(0"0(0#0#90"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/goodbye.wav8615341632#584"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/goodbye.wav" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/icon.png" Images/icon.png
+s300584614.478000
+e300584614.489816
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/icon.png
+xImages/icon.png
+lSLF07#2@20"Copy Images/icon.png300584614#300584614#0(0"0(0#0#94"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/icon.png8616091360#588"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/icon.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/info.png" Images/Icons/info.png
+s300584614.468565
+e300584614.749812
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/info.png
+xImages/Icons/info.png
+lSLF07#2@26"Copy Images/Icons/info.png300584614#300584614#0(0"0(0#0#100"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/info.png8631104704#594"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/info.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/read.png" Images/read.png
+s300472418.175665
+e300472418.190084
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/read.png
+xImages/read.png
+lSLF07#2@20"Copy Images/read.png300472418#300472418#0(0"0(0#0#94"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/read.png8617583744#588"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/read.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/rss2.png" Images/Icons/rss2.png
+s300584614.469378
+e300584614.750016
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/rss2.png
+xImages/Icons/rss2.png
+lSLF07#2@26"Copy Images/Icons/rss2.png300584614#300584614#0(0"0(0#0#100"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/rss2.png8629826048#594"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/rss2.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/save2.png" Images/Icons/save2.png
+s300584614.470151
+e300584614.750218
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/save2.png
+xImages/Icons/save2.png
+lSLF07#2@27"Copy Images/Icons/save2.png300584614#300584614#0(0"0(0#0#101"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/save2.png8625760384#595"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/save2.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/settings2.png" Images/Icons/settings2.png
+s300584614.472137
+e300584614.750421
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/settings2.png
+xImages/Icons/settings2.png
+lSLF07#2@31"Copy Images/Icons/settings2.png300584614#300584614#0(0"0(0#0#105"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/settings2.png8618060160#599"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/Icons/settings2.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/tap.aiff" Sounds/tap.aiff
+s300584614.467225
+e300584614.749587
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/tap.aiff
+xSounds/tap.aiff
+lSLF07#2@20"Copy Sounds/tap.aiff300584614#300584614#0(0"0(0#0#94"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Sounds/tap.aiff8632013376#588"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Sounds/tap.aiff" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/tap.aiff" tap.aiff
+s300472418.110654
+e300472418.133514
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/tap.aiff
+xtap.aiff
+lSLF07#2@13"Copy tap.aiff300472418#300472418#0(0"0(0#0#87"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/tap.aiff8605766400#581"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/tap.aiff" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/unread.png" Images/unread.png
+s300474261.497747
+e300474261.597995
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/unread.png
+xImages/unread.png
+lSLF07#2@22"Copy Images/unread.png300474261#300474261#0(0"0(0#0#96"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/unread.png8623119520#590"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/unread.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/up.png" Images/up.png
+s300584611.943383
+e300584612.152704
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/up.png
+xImages/up.png
+lSLF07#2@18"Copy Images/up.png300584611#300584612#0(0"0(0#0#92"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/up.png8635063168#586"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/Images/up.png" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CCpResource "build/Debug-iphonesimulator/RSS Reader.app/welcome.wav" welcome.wav
+s300472418.087924
+e300472418.133290
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RSS Reader.app/welcome.wav
+xwelcome.wav
+lSLF07#2@16"Copy welcome.wav300472418#300472418#0(0"0(0#0#90"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/welcome.wav8616971840#584"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/welcome.wav" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
+CGenerateDSYMFile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app.dSYM" "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader"
+s300584624.759774
+e300584625.579556
+r1
+xGenerateDSYMFile
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app.dSYM
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader
+lSLF07#2@122"GenerateDSYMFile "build/Debug-iphonesimulator/RSS Reader.app.dSYM" "build/Debug-iphonesimulator/RSS Reader.app/RSS Reader"300584624#300584625#0(0"0(0#0#132"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader8629002368#518"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader" -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app.dSYM"0#
+
+CLd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader" normal i386
+s300584624.430246
+e300584624.759611
+r1
+xLd
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader
+xnormal
+xi386
+old: warning: directory '/Volumes/JSON_2.2.3 1' following -F not found
+lSLF07#2@137"Link /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader300584624#300584624#0(70"ld: warning: directory '/Volumes/JSON_2.2.3 1' following -F not found1(22@56"Directory '/Volumes/JSON_2.2.3 1' following -F not found300584624#0#70#0(6@0"300584624#0#0#0#0#0"0(0#0#0"8635501728#1234"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk "-L/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" -filelist "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/Objects-normal/i386/RSS Reader.LinkFileList" -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2 -framework SystemConfiguration -framework MessageUI -framework AudioToolbox -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/RSS Reader"0#
+
+CProcessInfoPlistFile "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Info.plist" RSS_Reader-Info.plist
+s300584590.558906
+e300584590.917453
+r1
+xProcessInfoPlistFile
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Info.plist
+xRSS_Reader-Info.plist
+lSLF07#2@29"Process RSS_Reader-Info.plist300584590#300584590#0(0"0(0#0#100"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/RSS_Reader-Info.plist8631030400#614"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RSS_Reader-Info.plist -genpkginfo "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app/Info.plist"0#
+
+CProcessPCH /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch.gch RSS_Reader_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s300584616.126166
+e300584620.644188
+r1
+xProcessPCH
+x/var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch.gch
+xRSS_Reader_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile RSS_Reader_Prefix.pch300584616#300584620#0(0"0(0#0#100"/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/RSS_Reader_Prefix.pch8623849312#2296"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-generated-files.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-own-target-headers.hmap" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-all-target-headers.hmap" -iquote "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/RSS Reader-project-headers.hmap" "-F/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator" "-F/Volumes/JSON_2.2.3 1" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/include" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources/i386" "-I/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/RSS Reader.build/Debug-iphonesimulator/RSS Reader.build/DerivedSources" -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/RSS_Reader_Prefix.pch" -o /var/folders/jB/jBUyT2r0GJ4NGEYNtCt0lE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/RSS_Reader_Prefix-ahoxzkkvgfkolsgbunuhstsvihna/RSS_Reader_Prefix.pch.gch0#
+
+CTouch "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"
+s300584625.579804
+e300584625.745564
+r1
+xTouch
+x/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app
+lSLF07#2@127"Touch /Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app300584625#300584625#0(0"0(0#0#0"8621518688#365"    cd "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Mateusz/Documents/Projects/iPhone/Interactive Voice News/RSS Reader/Src/build/Debug-iphonesimulator/RSS Reader.app"0#
+
